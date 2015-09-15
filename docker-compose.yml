@@ -5,3 +5,5 @@ Squid:
   volumes:
     - /srv/docker/squid/cache:/var/spool/squid3
   restart: always
+acl aclName src Subnet (how, Plz help)
+http_access allow aclName (how, Plz help)
